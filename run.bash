@@ -9,7 +9,7 @@ cd src
 ./make.bash
 cd ..
 
-for i in {1..1000}
+for i in {1..50}
 do
     ./bin/go run ../git-bisect-run/crash.go
 done
