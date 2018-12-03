@@ -11,5 +11,5 @@ cd ..
 
 for i in {1..50}
 do
-    ./bin/go run ../git-bisect-run/crash.go
+    ./bin/go run ../git-bisect-run/crash2.go
 done
